@@ -1,5 +1,5 @@
 /* 
- * 
+ * Copyright 2019 Mario Merlos Abella <mario.merlos.alum@iescamp.es>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@ public final class Main {
     public static void main(String[] args) {
 
         // Generar dato
-        char letra = (char)(RND.nextInt(122 - 97 + 1) + 97);
+        char letra = (char) (RND.nextInt(122 - 97 + 1) + 97);
 
         System.out.printf("Letra de inicio de examen .:  %c.%n", letra);
     }
